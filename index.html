@@ -7,7 +7,7 @@
   <body>
     <header>
       <nav>
-        <p>DEVICE</p>
+        <a>Device</a>
         <form action="https://echo.htmlacademy.ru" method="get">
           <input type="text" name="searcher" id="search" placeholder="Поиск по сайту">
         </form>
@@ -17,11 +17,11 @@
           <li><a href="#">Корзина</a></li>
         </ul>
         <ul>
-          <li><a href="#">ДОСТАВКА</a></li>
-          <li><a href="#">ГАРАНТИЯ</a></li>
-          <li><a href="#">КОНТАКТЫ</a></li>
+          <li><a href="#">Доставка</a></li>
+          <li><a href="#">Гарантия</a></li>
+          <li><a href="#">Контакты</a></li>
         </ul>
-        <p>КАТАЛОГ ТОВАРОВ</p>
+        <p>Каталог товаров</p>
       </nav>
     </header>
 
@@ -30,9 +30,9 @@
       <section>
         <h2>Товар</h2>
         <a href="#"><img src="img/slider-1 1.png" alt="Товар" height="486" width="384"></a>
-        <p>Делай селфи,<br>
+        <p>Делай селфи,
            как Бен Стиллер!</p>
-        <p>Самая длинная палка для селфи доступна в нашем магазине.<br>
+        <p>Самая длинная палка для селфи доступна в нашем магазине.
            Восемь (Восемь,Карл!) метров длинной и всего 5 килограмм.</p>
         <p>01</p>
         <h3>Характеристики</h3>
@@ -50,20 +50,20 @@
               <p>Материал</p>
           </li>
         </ul>
+        <button type="submit">Подробнее</button>
+        <fieldset>
+          <ul>
+            <li><input type="radio" name="product_checkbox" id="product_checkbox_1" checked></li>
+            <li><input type="radio" name="product_checkbox" id="product_checkbox_2"></li>
+            <li><input type="radio" name="product_checkbox" id="product_checkbox_3"></li>
+          </ul>
+        </fieldset>
       </section>
-      <button type="submit">ПОДРОБНЕЕ</button>
-      <fieldset>
-        <ul>
-          <li><input type="radio" name="product_checkbox" id="product_checkbox_1" checked></li>
-          <li><input type="radio" name="product_checkbox" id="product_checkbox_2"></li>
-          <li><input type="radio" name="product_checkbox" id="product_checkbox_3"></li>
-        </ul>
-      </fieldset>
       <section>
         <h2>Каталог товаров</h2>
         <ul>
           <li>
-            <a href="catalog.html?id=1">
+            <a href="catalog.html?id=Flt1">
               <figure>
                 <img src="#" alt="Виртуальная реальность">
                 <figcaption>Виртуальная реальность</figcaption>
@@ -113,55 +113,53 @@
         </ul>
       </section>
       <section>
-        <h2>Информация для клиентов</h2>
-        <ul>
-          <li><button type="submit" disabled>ДОСТАВКА</button></li>
-          <li><button type="submit">ГАРАНТИЯ</button></li>
-          <li><button type="submit">КРЕДИТ</button></li>
-        </ul>
-        <h3>Доставка</h3>
-        <p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду <br> 
-          совершенно бесплатно! Ведь мы неплохо <br> 
-          заработаем, поднимая его на ваш этаж.</p>
-        <img src="#" alt="Картинка курьера">
-      </section>
-      <section>
-        <h2>Наши партнеры</h2>
-        <ul>
-          <li><a href="#"><img src="img/logo-1 1.png" alt="DJI"></a></li>
-          <li><a href="#"><img src="img/logo-2 1.png" alt="SP Gadgets"></a></li>
-          <li><a href="#"><img src="img/logo-3 1.png" alt="GoPro"></a></li>
-          <li><a href="#"><img src="img/logo-4 1.png" alt="VIVE"></a></li>
-        </ul>
-      </section>
-      <section>
-        <h2>О нас</h2>
-        <ul>
-          <li><p>Огромный выбор гаджетов не оставит равнодушным гика,<br> 
+        <div>
+          <h2>Информация для клиентов</h2>
+          <ul>
+            <li><button type="submit" disabled>Доставка</button></li>
+            <li><button type="submit">Гарантия</button></li>
+            <li><button type="submit">Кредит</button></li>
+          </ul>
+          <h3>Доставка</h3>
+          <p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду 
+            совершенно бесплатно! Ведь мы неплохо 
+            заработаем, поднимая его на ваш этаж.</p>
+          <img src="#" alt="Картинка курьера">
+        </div>
+        <div>
+          <h2>Наши партнеры</h2>
+          <ul>
+            <li><a href="#"><img src="img/logo-1 1.png" alt="DJI"></a></li>
+            <li><a href="#"><img src="img/logo-2 1.png" alt="SP Gadgets"></a></li>
+            <li><a href="#"><img src="img/logo-3 1.png" alt="GoPro"></a></li>
+            <li><a href="#"><img src="img/logo-4 1.png" alt="VIVE"></a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>О нас</h2>
+          <p>Огромный выбор гаджетов не оставит равнодушным гика,
             который есть в каждом из нас.</p>
-          </li>
-          <li><p>Мы можем доставить ваш товар в самые отдаленные точки <br> 
+          <p>Мы можем доставить ваш товар в самые отдаленные точки 
             России! DEVICE работает со многими транспортными компаниями:</p>
-            <ul>
-              <li><a href="#">Деловые линии</a></li>
-              <li><a href="#">Автотрейдтнг</a></li>
-              <li><a href="#">ЖелДорЭкспедиция</a></li>
-            </ul>
-          </li>
-        </ul>
-        <button type="submit">ПОДРОБНЕЕ О НАС</button>
+          <ul>
+            <li><a href="#">Деловые линии</a></li>
+            <li><a href="#">Автотрейдтнг</a></li>
+            <li><a href="#">ЖелДорЭкспедиция</a></li>
+          </ul>
+          <button type="submit">Подробнее о нас</button>
+        </div>
       </section>
       <section>
         <h2>Контакты</h2>
-        <p>Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете <br> 
+        <p>Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете
           проверить работоспособность покупки. Всякое бывает.</p>
         <img src="img/map 1.png" alt="Карта" height="222" width="560">
-        <button type="submit">НАПИШИТЕ НАМ</button>
+        <button type="submit">Напишите нам</button>
       </section>
     </main>
 
     <footer>
-      <p>DEVICE</p>
+      <p>Device</p>
       <h2>Связаться с нами</h2>
       <p>г.Москва, ул. Строителей 15</p>
       <ul>
@@ -170,9 +168,9 @@
         <li><a href="#">Корзина</a></li>
       </ul>
       <ul>
-        <li><a href="#">ДОСТАВКА</a></li>
-        <li><a href="#">ГАРАНТИЯ</a></li>
-        <li><a href="#">КОНТАКТЫ</a></li>
+        <li><a href="#">Доставка</a></li>
+        <li><a href="#">Гарантия</a></li>
+        <li><a href="#">Контакты</a></li>
       </ul>
 
       <p>Тел: <a href="tel:74954959595">+7(495)495-95-95</a></p>
